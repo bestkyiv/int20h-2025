@@ -1,0 +1,41 @@
+.arrow-up {
+    width: 48px;
+    position: relative;
+    height: 38px;
+    object-fit: contain;
+}
+.back-button:hover .arrow-up {
+    content: url('../img/arrow-blue.svg');
+}
+.wrapper {
+    width: 660px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.back-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+    font-size: 32px;
+}
+.reg {
+    position: relative;
+    font-size: 32px;
+    font-family: 'Sector 034';
+    color: #efefef;
+    text-align: left;
+}
+.back-button:hover .reg {
+    position: relative;
+    font-size: 32px;
+    font-family: 'Sector 034';
+    color: #4ab4f5;
+    text-align: left;
+    filter: drop-shadow(0px 0 2px rgba(74, 180, 245, 1));
+}

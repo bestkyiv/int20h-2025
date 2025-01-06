@@ -1,0 +1,182 @@
+
+.background-image-icon {
+    width: 1440px;
+    position: relative;
+    height: 675px;
+    object-fit: contain;
+    opacity: 0.15;
+    z-index: 0;
+}
+.background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-image: url('../img/Background.svg'); /* Виправлення шляху */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo-icon {
+    width: 528px;
+    position: relative;
+    height: 445px;
+    object-fit: cover;
+}
+.days-block {
+    width: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.timer-text {
+    align-self: stretch;
+    position: relative;
+    font-family: 'Nunito Sans';
+    text-align: center;
+}
+.hours-block {
+    width: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.minutes-block {
+    width: 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.seconds-block {
+    width: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.timer {
+    width: 308px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.registration-button {
+    width: 362px;
+    height: 80.5px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-button-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+.registration-button:hover .registration-button-image {
+    opacity: 0;
+}
+
+.registration-button:hover::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('../img/Registration Button Active.svg') no-repeat center center / cover;
+    z-index: 1;
+}
+.frame-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 22px;
+}
+.content1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.start {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 20px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0);
+}
+.it-, .days, .minutes, .hours, .seconds {
+    align-self: stretch;
+    position: relative;
+}
+.offline-online {
+    width: 1237px;
+    position: relative;
+    font-size: 32px;
+    color: #828080;
+    display: inline-block;
+}
+.group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.blue-text {
+    margin: 0;
+    color: #4ab4f5;
+}
+.int20h2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    font-family: 'Nunito Sans';
+}
+.content {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 72px;
+    box-sizing: border-box;
+    gap: 64px;
+}
+.vector-17-lines {
+    position: absolute;
+    top: 890px;
+    left: 749px;
+    width: 529px;
+    height: 89px;
+    overflow: hidden;
+    object-fit: cover;
+}

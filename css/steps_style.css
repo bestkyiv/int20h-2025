@@ -1,0 +1,122 @@
+.step1-text {
+    width: 271px;
+    position: relative;
+    font-size: 36px;
+    display: inline-block;
+    flex-shrink: 0;
+    color: #efefef;
+}
+.step-content {
+    width: 325px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 43px;
+    z-index: 0;
+}
+.frame-icon {
+    width: 707px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0px;
+    left: 0px;
+    height: 128.4px;
+    z-index: 1;
+}
+.step1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 707px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 16px 0px 16px 145px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+.step2-text {
+    width: 496px;
+    position: relative;
+    font-size: 36px;
+    display: inline-block;
+    flex-shrink: 0;
+    color: #efefef;
+}
+.child {
+    width: 707px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0px;
+    left: 0px;
+    height: 104px;
+    z-index: 1;
+}
+.step2 {
+    position: absolute;
+    top: 163.5px;
+    left: 184px;
+    width: 707px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 16px 0px 16px 145px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+.step-text {
+    width: 396px;
+    position: relative;
+    font-size: 36px;
+    display: inline-block;
+    flex-shrink: 0;
+    color: #efefef;
+}
+.step3 {
+    position: absolute;
+    top: 302.5px;
+    left: 377px;
+    width: 707px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 16px 0px 16px 145px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+.step4 {
+    position: absolute;
+    top: 441.5px;
+    left: 565px;
+    width: 707px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 16px 0px 16px 145px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+.steps {
+    align-self: stretch;
+    position: relative;
+    height: 546px;
+    font-size: 64px;
+    color: #fff;
+    font-family: 'Nunito Sans';
+}
+.how-to {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+.step-name {
+    margin: 0;
+}

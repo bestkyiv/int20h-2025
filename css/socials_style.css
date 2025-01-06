@@ -1,0 +1,24 @@
+.socials-icon {
+    width: 80px;
+    position: relative;
+    height: 80px;
+    object-fit: cover;
+}
+.social-media {
+    width: 854px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px 8px;
+    box-sizing: border-box;
+}
+.socials-icon:hover {
+    filter: drop-shadow(0px 0 8px rgba(74, 180, 245, 1));
+  }
+  
+  @media (max-width: 420px) {
+    .social-media {
+      max-width: 300px;
+    }
+  }

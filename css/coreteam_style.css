@@ -1,0 +1,109 @@
+.email-text {
+    position: relative;
+    font-size: 15px;
+}
+.main-organizer {
+    position: absolute;
+    top: calc(50% + 79.5px);
+    left: calc(50% - 16.5px);
+    filter: blur(8px);
+    transform:  rotate(-90deg);
+    transform-origin: 0 0;
+}
+.position-name {
+    writing-mode: vertical-rl; /* Робить текст вертикальним */
+    transform: rotate(180deg); /* Повертає текст на 180 градусів */
+    font-size: 20px; /* Розмір шрифту */
+    color: #4ab4f5; /* Колір тексту */
+    text-align: center; /* Вирівнювання по центру */
+    line-height: 1.5; /* Міжрядковий інтервал */
+    height: 100%; /* Займати всю висоту контейнера */
+    display: flex; /* Для центрування */
+    align-items: center; /* Вирівнювання вертикалі */
+    justify-content: center; /* Вирівнювання горизонталі */
+    filter: drop-shadow(0px 0 8px rgba(74, 180, 245, 1));
+}
+.position {
+    position: absolute;
+    top: 65%; /* Центрування вертикально */
+    left: -5px; /* Розташування лівіше від рамки */
+    transform: translateY(-50%); /* Вирівнювання по центру */
+    width: 33px; /* Ширина текстового контейнера */
+    height: 100%; /* Висота контейнера (залежить від висоти рамки) */
+}
+.frame-icon1 {
+    width: 220.5px;
+    position: relative;
+    height: 317.7px;
+    object-fit: cover;
+}
+.email-ico-icon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+}
+.member-name {
+    position: relative;
+}
+.email-ico-parent {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 0px;
+    box-sizing: border-box;
+    gap: 3px;
+    text-align: center;
+}
+.frame-div {
+    width: 305px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 0px;
+}
+.frame-group {
+    position: absolute;
+    top: calc(50% - 195.25px);
+    left: calc(50% - 169px);
+    width: 337px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 20px;
+    font-size: 20px;
+    color: #efefef;
+}
+.coreteam-position {
+    width: 280px;
+    position: relative;
+    height: 390px;
+}
+.mentor {
+    position: absolute;
+    top: calc(50% + 39px);
+    left: calc(50% - 16.5px);
+    filter: blur(8px);
+    transform:  rotate(-90deg);
+    transform-origin: 0 0;
+}
+.core-team {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 56px 32px;
+    font-size: 24px;
+    color: #4ab4f5;
+    font-family: 'Nunito Sans';
+}

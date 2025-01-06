@@ -1,0 +1,118 @@
+.faq-container, .faq__heading, .faq__question p, .faq__answer, .faq__other-questions p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+}
+.faq-container {
+    padding: 32px;
+    background-color: #071218;
+}
+.faq__heading {
+    text-align: center;
+    margin-bottom: 24px;
+    font-family: 'Sector 034';
+}
+.faq__accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.faq__details {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.faq__question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding-left: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.faq__question p {
+    margin: 0;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+details[open] .faq__question {
+    background-image: url('../img/Vector 49.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+details[open] .faq__question p {
+    color: #071218;
+}
+.faq__arrow {
+    margin-left: 60px;
+    margin-right: 20px;
+}
+.faq__arrow img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease, content 0.3s ease;
+}
+details[open] .faq__arrow img {
+    content: url('../img/arrow-after.svg');
+}
+.faq__answer {
+    padding: 24px;
+    background: linear-gradient(180deg, rgba(74, 180, 245, 0.15), rgba(43, 105, 143, 0));
+    line-height: 1.5;
+    display: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+details[open] .faq__answer {
+    display: block;
+}
+.faq-wrapper {
+    position: relative;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+.triangles-down {
+    position: absolute;
+    left: -180px;
+    top: 400px;
+    transform: translateY(-50%);
+    width: 80px;
+    height: auto;
+}
+.triangles-up {
+    position: absolute;
+    right: -180px;
+    top: 400px;
+    transform: translateY(-50%);
+    width: 80px;
+    height: auto;
+}
+.faq__other-questions {
+    margin-top: 32px;
+    text-align: center;
+}
+.faq__link {
+    color: #4ab4f5;
+    text-decoration: none;
+    font-weight: 600;
+} 
+.faq__link:hover {
+    text-decoration: underline;
+}
+.faq__other-questions {
+    margin-top: -100px;
+    text-align: center;
+    max-width: 736px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.faq__other-questions p {
+    font-size: 40px;
+    text-align: left;
+}

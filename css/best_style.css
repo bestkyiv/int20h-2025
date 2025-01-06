@@ -1,0 +1,58 @@
+.best {
+    align-self: stretch;
+    position: relative;
+    font-family: 'Sector 034';
+}
+.photo-frame-icon {
+    width: 638px;
+    position: relative;
+    height: 462px;
+}
+.vector-3-lines {
+    width: 432px;
+    position: relative;
+    height: 38px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+.board-of-european-students-of-parent {
+    width: 537px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.photo-frame-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #efefef;
+}
+.about-best {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+    color: #fff;
+    font-family: 'Nunito Sans';
+}
+.statistics-text {
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    color: #efefef;
+}
+.statistics {
+    width: 1296px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #4ab4f5;
+}
