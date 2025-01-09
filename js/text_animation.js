@@ -17,7 +17,7 @@ function typeText() {
         displayedText += text[i];
         animatedText.innerHTML = displayedText;
         i++;
-        setTimeout(typeText, 50); // Затримка між символами
+        setTimeout(typeText, 40);
     }
 }
 

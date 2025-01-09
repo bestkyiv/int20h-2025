@@ -1,25 +1,23 @@
-
 .background-image-icon {
-    width: 1440px;
+    width: 100%;
     position: relative;
-    height: 675px;
+
     object-fit: contain;
-    opacity: 0.15;
+    opacity: 1;
     z-index: 0;
+    height: auto;
+    max-width: 100%;
+    
 }
 .background {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 1440px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    background-image: url('../img/Background.svg'); /* Виправлення шляху */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 .logo-icon {
     width: 528px;
@@ -122,6 +120,7 @@
     justify-content: center;
     flex-wrap: wrap;
     align-content: flex-start;
+    width: 100%;
     gap: 20px;
     font-size: 20px;
     color: rgba(0, 0, 0, 0);
@@ -131,11 +130,9 @@
     position: relative;
 }
 .offline-online {
-    width: 1237px;
     position: relative;
     font-size: 32px;
     color: #828080;
-    display: inline-block;
 }
 .group {
     align-self: stretch;
@@ -159,9 +156,7 @@
     font-family: 'Nunito Sans';
 }
 .content {
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    align-self: stretch;
     width: 1440px;
     display: flex;
     flex-direction: column;
@@ -169,12 +164,12 @@
     justify-content: flex-start;
     padding: 72px;
     box-sizing: border-box;
-    gap: 64px;
+    gap: 32px;
 }
 .vector-17-lines {
     position: absolute;
     top: 890px;
-    left: 749px;
+    left: 50%;
     width: 529px;
     height: 89px;
     overflow: hidden;

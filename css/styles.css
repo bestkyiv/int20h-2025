@@ -5,26 +5,160 @@
       url("../fonts/sector_034/Sector-034.ttf") format("opentype");
 }
 body {
-    margin: 0;
-    line-height: normal;
-    background-color: #071218;
-    width: 100%;
-    position: relative;
-    text-align: left;
-    font-size: 36px;
-    color: #efefef;
-    font-family: 'Sector 034'; 
-}
-a {
-  color: inherit;
-  text-decoration: none;
-}
-.block-name {
+  margin: 0;
+  line-height: normal;
+  background-color: #071218;
   width: 100%;
   position: relative;
-  font-size: 36px;
-  font-family: 'Sector 034';
-  color: #efefef;
   text-align: left;
-  display: inline-block;
+  font-size: 28px;
+  color: #efefef;
+  font-family: 'Sector 034'; 
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
+body {
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#int20h, #categories, #steps, #benefits, #coreteam, #best, #reg, #faq, #socials {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0px 100px;
+}
+a {
+color: inherit;
+text-decoration: none;
+}
+.block-name {
+width: 100%;
+position: relative;
+font-size: 28px;
+font-family: 'Sector 034';
+color: #efefef;
+text-align: left;
+display: inline-block;
+}
+main {
+  padding: 30px;
+}
+main section {
+  margin-bottom: 30px;
+}
+
+
+@media (max-width: 768px) {
+  .frame {
+      display: none !important;
+  }
+  .vector-17-lines, .triangles-down, .triangles-up {
+      display: none;
+  }
+  main section, #categories {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  #int20h, #categories, #steps, #benefits, #coreteam, #best, #reg, #faq, #socials {
+    margin: 0;
+    padding: 10px;
+  }
+  body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  }
+  .start {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .content {
+    width: 100%;
+    padding: 0;
+    position: static;
+  }
+  .logo-icon, .registration-button-image {
+    width: 100%;
+    max-width: none;
+    height: auto;
+  }
+  main {
+    padding: 15px;
+    width: 90%;
+  }
+  .background-image-icon {
+    max-width: 100%;
+  }
+  .block-name, .faq__heading {
+    font-size: 20px;
+  }
+  body, .columns, .blockchain1, .uiux, .faq__other-questions p, .column-1 {
+    font-size: 20px;
+  }
+  .frame-parent, .start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .logo-icon {
+    margin-bottom: 0;
+  }
+
+  .registration-button {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      order: 1;
+      width: 100%;
+      max-width: 100%;
+      text-align: center;
+  }
+
+  .timer {
+      order: 2;
+      width: auto;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  p, .offline-online {
+      font-size: 0.9em;
+  }
+}
+
+@media (min-width: 1920px) {
+  body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 36px;
+  }
+  main {
+    width: 100%;
+    max-width: 1440px;
+    padding: 20px;
+  }
+  .vector-17-lines {
+    position: absolute;
+    top: 990px;
+  }
+  .core-team {
+    gap: 100px;
+  }
+  .columns {
+    font-size: 36px !important;
+  }
+}
+

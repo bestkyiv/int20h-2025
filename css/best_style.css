@@ -29,8 +29,10 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-between;
     color: #efefef;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%; 
 }
 .about-best {
     align-self: stretch;
@@ -49,10 +51,61 @@
     color: #efefef;
 }
 .statistics {
-    width: 1296px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     color: #4ab4f5;
 }
+
+@media (max-width: 768px) {
+    .about-best {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+  
+    .photo-frame-parent {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        gap: 1rem;
+        width: 100%;
+        max-width: 100%;
+    }
+  
+    .photo-frame-icon {
+        width: 100%;
+        max-width: none;
+        height: auto;
+    }
+  
+    .board-of-european-students-of-parent {
+        text-align: left;
+        width: 100%;
+    }
+  
+    .vector-3-lines {
+        text-align: left;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-left: 0;
+    }
+  
+    .statistics {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        width: 100%;
+    }
+  
+    .statistics-text {
+        text-align: left;
+        width: 100%;
+    }
+  }

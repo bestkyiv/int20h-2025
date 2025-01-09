@@ -92,9 +92,7 @@
     z-index: 1;
 }
 .footer-icon {
-    width: 250px;
     position: relative;
-    height: 27px;
     z-index: 2;
 }
 .terminal-text {

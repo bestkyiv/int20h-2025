@@ -11,25 +11,25 @@
     transform-origin: 0 0;
 }
 .position-name {
-    writing-mode: vertical-rl; /* Робить текст вертикальним */
-    transform: rotate(180deg); /* Повертає текст на 180 градусів */
-    font-size: 20px; /* Розмір шрифту */
-    color: #4ab4f5; /* Колір тексту */
-    text-align: center; /* Вирівнювання по центру */
-    line-height: 1.5; /* Міжрядковий інтервал */
-    height: 100%; /* Займати всю висоту контейнера */
-    display: flex; /* Для центрування */
-    align-items: center; /* Вирівнювання вертикалі */
-    justify-content: center; /* Вирівнювання горизонталі */
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 20px;
+    color: #4ab4f5;
+    text-align: center;
+    line-height: 1.5;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     filter: drop-shadow(0px 0 8px rgba(74, 180, 245, 1));
 }
 .position {
     position: absolute;
-    top: 65%; /* Центрування вертикально */
-    left: -5px; /* Розташування лівіше від рамки */
-    transform: translateY(-50%); /* Вирівнювання по центру */
-    width: 33px; /* Ширина текстового контейнера */
-    height: 100%; /* Висота контейнера (залежить від висоти рамки) */
+    top: 65%;
+    left: -5px;
+    transform: translateY(-50%);
+    width: 33px;
+    height: 100%;
 }
 .frame-icon1 {
     width: 220.5px;
@@ -99,11 +99,39 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     align-content: flex-start;
-    gap: 56px 32px;
+    gap: 26px;
     font-size: 24px;
     color: #4ab4f5;
     font-family: 'Nunito Sans';
+}
+
+
+@media (max-width: 768px) {
+    .core-team {
+        flex-wrap: nowrap;
+        display: flex;
+        justify-content: start;
+        flex-direction: row;
+        gap: 1rem;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+    }
+    .core-team::-webkit-scrollbar {
+        width: 10px;
+        height: 4px;
+    }
+    .core-team::-webkit-scrollbar-thumb {
+        background: white;
+        border-radius: 10px;
+        width: 12px;
+        height: 4px;
+    }
+    .coreteam-position {
+        min-width: 240px;
+        flex: 0 0 auto;
+    }
 }
