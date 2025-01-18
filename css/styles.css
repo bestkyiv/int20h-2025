@@ -132,7 +132,7 @@ main section {
 
 @media (max-width: 480px) {
   p, .offline-online {
-      font-size: 0.9em;
+      font-size: 0.8em;
   }
 }
 

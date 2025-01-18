@@ -124,7 +124,7 @@ details[open] .faq__answer {
 
 @media (max-width: 768px) {
     .faq__question p, .faq__answer {
-        font-size: 12px;
+        font-size: 28px;
     }
     .faq__answer {
         padding: 10px;
@@ -156,4 +156,43 @@ details[open] .faq__answer {
     .faq__heading {
         font-size: 20px;
     }
+    .faq__arrow {
+        margin-left: 4px;
+        margin-right: 10px;
+    }
+    .faq-container, .faq__heading, .faq__question p, .faq__answer, .faq__other-questions p {
+        font-size: 28px;
+    }
+    p, .offline-online {
+        font-size: 0.8em;
+    }
 }
+  
+@media (max-width: 624px) {
+    .faq-container, .faq__heading, .faq__question p, .faq__answer, .faq__other-questions p {
+      font-size: 26px;
+    }
+}
+
+@media (max-width: 588px) {
+    .faq-container, .faq__heading, .faq__question p, .faq__answer, .faq__other-questions p {
+      font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .faq-container, .faq__heading, .faq__question p, .faq__answer, .faq__other-questions p {
+      font-size: 16px;
+    }
+    .faq__arrow {
+      margin-left: 5px;
+      margin-right: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+    .faq-container, .faq__heading, .faq__question p, .faq__answer, .faq__other-questions p {
+      font-size: 12px;
+    }
+}
+
