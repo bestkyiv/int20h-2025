@@ -25,7 +25,7 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-#int20h, #categories, #steps, #benefits, #coreteam, #best, #reg, #faq, #socials {
+#int20h, #categories, #steps, #benefits, #coreteam, #best, #reg, #faq, #socials, #partners {
   width: 100%;
   max-width: 1200px;
   padding: 20px;
@@ -63,7 +63,7 @@ main section {
     margin-bottom: 30px;
     margin-top: 20px;
   }
-  #int20h, #categories, #steps, #benefits, #coreteam, #best, #reg, #faq, #socials {
+  #int20h, #categories, #steps, #benefits, #coreteam, #best, #reg, #faq, #socials, #partners {
     margin: 0;
     padding: 10px;
   }
