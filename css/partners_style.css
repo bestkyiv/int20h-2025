@@ -13,37 +13,6 @@
   flex-shrink: 0;
   transform: rotate(180deg);
 }
-.vector-icon {
-    width: 449px;
-    position: relative;
-}
-.genesis-icon {
-    width: 283.5px;
-    position: relative;
-}
-.solidgate-icon {
-    width: 360.5px;
-    position: relative;
-}
-.skelar-icon {
-    width: 362px;
-    position: relative;
-}
-.unicorn-icon {
-    width: 393.7px;
-    position: relative;
-}
-.logos {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    box-sizing: border-box;
-    gap: 80px 260px;
-}
 .our-partners {
   width: 100%;
   position: relative;
@@ -58,11 +27,28 @@
   font-family: 'Sector 034';
 }
 
+.logos-cr, .logos-barter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(40px, 8vw, 80px) clamp(80px, 16vw, 260px);
+}
+
+.everstake-icon, .genesis-icon, .solidgate-icon, .skelar-icon, 
+.unicorn-icon, .represent-icon, .usf-icon {
+  width: min(45vw, 450px);
+  height: auto;
+}
+
 @media (max-width: 768px) {
-  .vector-icon, .genesis-icon, .solidgate-icon, .skelar-icon, .unicorn-icon {
-    width: 60%;
+  .logos-cr, .logos-barter {
+    gap: clamp(10px, 1vw, 40px) clamp(20px, 1vw, 130px);
   }
-  .logos {
-    gap: 40px;
+
+  .everstake-icon, .genesis-icon, .solidgate-icon, .skelar-icon, 
+  .unicorn-icon, .represent-icon, .usf-icon {
+    width: min(40vw, 220px);
   }
 }
+
