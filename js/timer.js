@@ -1,4 +1,4 @@
-const countDownDate = new Date("February 02, 2025 23:59:59").getTime();
+const countDownDate = new Date("February 05, 2025 23:59:59").getTime();
 
 const formatTimeString = (hours, minutes, seconds) => {
   return `${hours.toString().padStart(2, "0")}:${minutes
