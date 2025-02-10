@@ -17,8 +17,6 @@ body {
   word-wrap: break-word;
   overflow-wrap: break-word;
   hyphens: auto;
-}
-body {
   display: grid;
   place-items: center;
   margin: 0;
@@ -56,7 +54,7 @@ main section {
   .frame {
       display: none !important;
   }
-  .vector-17-lines, .triangles-down, .triangles-up {
+  .triangles-down, .triangles-up {
       display: none;
   }
   main section, #categories {
@@ -94,7 +92,7 @@ main section {
   .background-image-icon {
     max-width: 100%;
   }
-  .block-name, .faq__heading {
+  .block-name, .faq__heading, .end-text {
     font-size: 20px;
   }
   body, .columns, .blockchain1, .uiux, .faq__other-questions p, .column-1 {
@@ -135,7 +133,11 @@ main section {
       font-size: 0.8em;
   }
 }
-
+@media (max-width: 1156px) {
+  .vector-17-lines {
+      display: none;
+  }
+}
 @media (min-width: 1920px) {
   body {
     display: grid;

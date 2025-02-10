@@ -1,18 +1,3 @@
-.vector-18-snake {
-    width: 60%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-    flex-shrink: 0;
-}
-.vector-18-snake2 {
-  width: 60%;
-  height: 100%;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-  transform: rotate(180deg);
-}
 .our-partners {
   width: 100%;
   position: relative;
@@ -21,34 +6,137 @@
   align-items: center;
   justify-content: center;
   gap: 32px;
-  text-align: left;
-  font-size: 36px;
-  color: #efefef;
-  font-family: 'Sector 034';
 }
 
-.logos-cr, .logos-barter {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.vector-18-snake, .vector-18-snake2 {
+  width: 60%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.vector-18-snake2 {
+  transform: rotate(180deg);
+}
+
+.logos-cr {
+  display: grid;
   align-items: center;
-  gap: clamp(40px, 8vw, 80px) clamp(80px, 16vw, 260px);
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 16px;
+  width: 80%;
+}
+
+.logos-barter {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 16px;
+  width: 80%;
 }
 
 .everstake-icon, .genesis-icon, .solidgate-icon, .skelar-icon, 
-.unicorn-icon, .represent-icon, .usf-icon {
-  width: min(45vw, 450px);
-  height: auto;
+.unicorn-icon, .represent-icon, .betterme-icon {
+  width: min(30vw, 250px);
+  max-width: 100%;
 }
+
+.usf-icon, .hillel-icon, .morshynska-icon {
+  width: min(30vw, 200px);
+  max-width: 100%;
+}
+
+.milkalliance-icon {
+  width: min(30vw, 150px);
+  max-width: 100%;
+}
+
+.levelup-icon {
+  width: min(30vw, 170px);
+  max-width: 100%;
+  transform: translateX(-20%); 
+}
+
+.stepit-icon {
+  width: min(30vw, 120px);
+  max-width: 100%;
+}
+
+.hillel-icon {
+  transform: translateX(120%); 
+}
+.stepit-icon {
+  transform: translateX(198%); 
+}
+
+.unicorn-icon {
+  transform: translateX(128%); 
+}
+
 
 @media (max-width: 768px) {
   .logos-cr, .logos-barter {
-    gap: clamp(10px, 1vw, 40px) clamp(20px, 1vw, 130px);
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: auto;
+      grid-column-gap: 16px;
+      grid-row-gap: 12px;
+      width: 90%;
   }
 
   .everstake-icon, .genesis-icon, .solidgate-icon, .skelar-icon, 
-  .unicorn-icon, .represent-icon, .usf-icon {
-    width: min(40vw, 220px);
+  .unicorn-icon, .represent-icon, .betterme-icon, .betterme-icon, 
+  .skelar-icon, .usf-icon, .morshynska-icon, .milkalliance-icon, 
+  .hillel-icon, .levelup-icon {
+      width: min(40vw, 150px);
+  }
+
+  .stepit-icon {
+    width: min(40vw, 100px);
+    max-width: 100%;
+  }
+  .hillel-icon {
+    width: min(40vw, 154px);
+  }
+
+  .hillel-icon, .stepit-icon {
+    transform: translateX(0%); 
+  }
+
+  .milkalliance-icon {
+    width: min(30vw, 120px);
+    max-width: 100%;
+  }
+  .levelup-icon {
+    transform: translateX(0%); 
+  }
+}
+
+@media (max-width: 480px) {
+  .logos-cr, .logos-barter {
+      grid-template-columns: repeat(3, 1fr);
+  }
+
+  .everstake-icon, .genesis-icon, .solidgate-icon, .skelar-icon, 
+  .unicorn-icon, .represent-icon, .betterme-icon, .betterme-icon, 
+  .skelar-icon, .usf-icon, .morshynska-icon, .milkalliance-icon, 
+  .hillel-icon, .stepit-icon, .levelup-icon {
+      width: min(60vw, 120px);
+  }
+
+  .hillel-icon, .stepit-icon {
+    transform: translateX(0%); 
+  }
+  
+  .unicorn-icon {
+    transform: translateX(118%); 
+  }
+
+  .stepit-icon {
+    width: min(40vw, 64px);
+    max-width: 100%;
   }
 }
 

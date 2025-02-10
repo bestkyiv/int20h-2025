@@ -175,3 +175,11 @@
     overflow: hidden;
     object-fit: cover;
 }
+
+.end-text {
+    position: relative;
+    font-size: 30px;
+    font-family: 'Nunito Sans';
+    text-align: left;
+    color: #fff;
+}
