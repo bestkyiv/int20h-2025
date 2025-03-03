@@ -87,12 +87,7 @@
     height: 390px;
 }
 .mentor {
-    position: absolute;
-    top: calc(50% + 39px);
-    left: calc(50% - 16.5px);
-    filter: blur(8px);
-    transform:  rotate(-90deg);
-    transform-origin: 0 0;
+    transform: translateX(168%);
 }
 .core-team {
     align-self: stretch;
@@ -133,5 +128,8 @@
     .coreteam-position {
         min-width: 240px;
         flex: 0 0 auto;
+    }
+    .mentor {
+        transform: translateX(0%);
     }
 }

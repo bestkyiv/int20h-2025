@@ -39,12 +39,12 @@
 }
 
 .everstake-icon, .genesis-icon, .solidgate-icon, .skelar-icon, 
-.unicorn-icon, .represent-icon, .betterme-icon {
+.unicorn-icon, .represent-icon, .betterme-icon, .kumekateam-icon, .set-icon, .sigma-icon {
   width: min(30vw, 250px);
   max-width: 100%;
 }
 
-.usf-icon, .hillel-icon, .morshynska-icon {
+.usf-icon, .morshynska-icon, .suputnyk-icon, .nora-icon, .vihola-icon {
   width: min(30vw, 200px);
   max-width: 100%;
 }
@@ -60,19 +60,21 @@
   transform: translateX(-20%); 
 }
 
-.stepit-icon {
+.stepit-icon, .hillel-icon {
   width: min(30vw, 120px);
   max-width: 100%;
+  height: 90px;
 }
 
 .hillel-icon {
-  transform: translateX(120%); 
+  transform: translateX(300%); 
 }
 .stepit-icon {
-  transform: translateX(198%); 
+  transform: translateY(-12%);
+  transform: translateX(-20%); 
 }
 
-.unicorn-icon {
+.kumekateam-icon {
   transform: translateX(128%); 
 }
 
@@ -128,10 +130,6 @@
 
   .hillel-icon, .stepit-icon {
     transform: translateX(0%); 
-  }
-  
-  .unicorn-icon {
-    transform: translateX(118%); 
   }
 
   .stepit-icon {
